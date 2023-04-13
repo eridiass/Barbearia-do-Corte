@@ -1,0 +1,178 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 15px 0;
+    color: #3F3E40;
+    font-size: 39px;
+}
+
+.links {
+    text-decoration: none;
+    padding: 7px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.links:hover {
+    border: #3F3E40 solid 1px;
+    font-size: 23px;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9A5237;
+    border-bottom: #3F3E40 1px solid;
+}
+
+.logo {
+    width: 10vw;
+    height: 20vh;
+    padding: 10px;
+}
+
+.procedimentos-topo h4{
+    color: #9A5237;
+    font-size: 31px;
+    padding-left: 15px;
+    margin-top: 15px;
+    
+}
+
+.procedimentos-topo p {
+    color: black;
+    margin: 0 30px 0 30px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+
+#equipe {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+
+
+.equipe-infos {
+    padding: 10px;
+}
+
+.equipe-infos figcaption {
+    color: #9A5237;
+    font-size: 31px;
+    text-align: center;
+}
+
+.equipe-imagem {
+    max-width: 83%;
+    max-height: 90%;
+}
+
+
+
+#clientes-avaliacao {
+    padding-bottom: 70px;
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+#clientes-avaliacao p {
+    color: black;
+    margin: 0 30px 3px 30px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#clientes-avaliacao h4 {
+    font-size: 25px;
+    margin: 0 0 15px 30px;
+}
+
+#contato {
+    margin-bottom: 35px;
+}
+
+#contato-descricao {
+    margin: 0 30px 50px 30px;
+    font-size: 20px;
+    padding-top: 15px;
+
+}
+
+#contato-topo {
+    color: red;
+    margin: 0 30px 3px 30px;
+    font-size: 25px;
+}
+
+.contato-horario {
+    padding-right: 13px;
+}
+
+.contato-dias {
+    padding-right: 13px;
+}
+
+#contato-links p {
+    margin-bottom: 70px;
+}
+
+#contato-ligacao {
+    color: #9A5237;
+    font-size: 21px;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 15px 0;
+    color: #3F3E40;
+    font-size: 39px;
+}
+
+.contato-par td {
+    color: #3F3E40;
+}
+
+.contato-impar td {
+    color: #9A5237;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#3F3E40;
+    color: #fff;
+}
+
+button:hover {
+    background: #9A5237;
+    border: black solid 2px;
+}
+
+#rodape-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0 15px 0;
+    margin-top: 20px;
+    background: #9A5237;
+    color: black;
+    max-width: 100%;
+}
+
+#rodape-logo p:hover {
+    color: #fff;
+}
