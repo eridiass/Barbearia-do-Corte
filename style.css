@@ -109,7 +109,6 @@
 }
 
 #contato-topo {
-    color: red;
     margin: 0 30px 3px 30px;
     font-size: 25px;
 }
@@ -175,4 +174,76 @@ button:hover {
 
 #rodape-logo p:hover {
     color: #fff;
+}
+
+
+/*REPONSIVIDADE*/
+
+@media (max-width: 400px) {
+    .titulos {
+        font-size: 25px;
+        padding: 30px 0 7px 0;
+    }
+
+    .titulos h3 {
+        border-bottom: solid 1px #9A5237;
+    }
+
+    .topo {
+        flex-direction: column;
+        padding: 5px 3px 11px 3px;
+    }
+    
+    .topo main a{
+        font-size: 15px;
+    }
+    
+    .logo {
+        width: 23vw;
+        height: 13vh;
+    }
+
+    .procedimentos-topo h4 {
+        font-size: 23px;
+    }
+
+    .procedimentos-topo p {
+        font-size: 19px;
+    }
+
+    #equipe {
+        padding-top: 15px;
+    }
+
+    .equipe-infos figcaption{
+        font-size: 19px;
+    }
+
+    #clientes-avaliacao p {
+        font-size: 15px;
+        padding-top: 7px;
+    }
+
+    #clientes-avaliacao h4 {
+        font-size: 19px;
+    }
+
+    #contato-descricao {
+        font-size: 17px;
+    }
+
+    #contato-links {
+        display: flex;
+        align-content: center;
+        text-align: center;
+        width: 94%;
+    }
+    #contato-ligacao {
+        font-size: 19px;
+        
+    }
+
+    #contato-topo tr,td {
+        font-size: 19px;
+    }
 }
