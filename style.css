@@ -194,6 +194,9 @@ button:hover {
         padding: 5px 3px 11px 3px;
     }
     
+    .topo main{
+        max-width: auto;
+    }
     .topo main a{
         font-size: 13px;
     }
